@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  margin: 0 auto;
+  min-width: 95%;
+}
+header{
+  /* height: 200px; */
+  /* width: 100%; */
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow:3px 3px 3px rgba(0, 0, 0, .3);
+  margin-bottom: 20px;
+}
+header .row{
+  margin: 0;
+  padding: 0;
+}
+
+
+.img{
+  display: block;
+  width: 100%;
+  /* height: 100%; */
+  margin: 0;
+}
+.lit-img{
+  width: 100px;
+}
+.col-header{
+  padding:0;
+  padding-left: 2px;
+}
+.row{
+  /* width: 100%; */
+  margin: 0 auto;
+}
+.test{
+  margin-bottom: 2px;
+}
