@@ -12,7 +12,6 @@ body {
   background-image: linear-gradient(to top, #060d17, #000);
   min-height: 100vh;
 }
-
 .carousel {
   /* background: transparent; */
 }
@@ -292,6 +291,9 @@ body{
 .play_trailer a:hover{
   color: #fff;
 }
+.play_trailer .favorite{
+  color: #e5a00d !important;
+}
 main {
     background-image: linear-gradient(to top, #060d17, #000);
 }
@@ -377,3 +379,46 @@ main .newest{
 }
 
 /************************* MODAL STYLE END *************************/
+
+  /* FOOTER STYLE START */
+.footer{
+  background-color: #000102;
+  margin: 0 auto;
+  padding: .5rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.footer-nav{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+.footer ul{
+  /* width: 100%; */
+  max-width: 419px;
+  min-width: 200px;
+
+}
+.footer li{
+  list-style: none;
+  text-align: center;
+  color: #fff;
+}
+.footer ul li:first-child{
+  text-decoration: underline;
+  margin-bottom: .5rem;
+}
+.footer li a{
+  color: #777;
+}
+.footer p{
+  color: #999;
+  text-align: center;
+}
+.footer p span{
+  color: #e5a00d;
+}
+
+  /* FOOTER STYLE END */
